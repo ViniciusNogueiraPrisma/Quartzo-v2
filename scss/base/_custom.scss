@@ -8,14 +8,12 @@ html {
 body {
   display: flex;
   flex-direction: column;
-
   min-height: 100vh;
-
   color: var(--text-color);
+  font-family: var(--font-family-body, "Open Sans");
 
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-
   overflow-x: hidden;
 
   &.trava-scroll {
@@ -34,50 +32,6 @@ th,
 td {
   text-align: left;
   font-weight: normal;
-}
-
-@media (max-width: 1250px) {
-  .container {
-    padding-left: 32px !important;
-    padding-right: 32px !important;
-  }
-}
-
-@media (max-width: 1199px) {
-  .container {
-    padding-left: 24px !important;
-    padding-right: 24px !important;
-  }
-}
-
-.container {
-  @media (min-width: 576px) {
-    max-width: 100%;
-    // padding-left: 24px !important;
-    // padding-right: 24px !important;
-  }
-
-  @media (min-width: 768px) {
-    max-width: 820px;
-
-    // padding-left: 24px !important;
-    // padding-right: 24px !important;
-  }
-
-  @media (min-width: 992px) {
-    max-width: 951px;
-  }
-
-  @media (min-width: 1200px) {
-    max-width: 1360px;
-    // padding-right: 40px !important;
-    // padding-left: 40px !important;
-  }
-
-  @media (max-width: 575px) {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
 }
 
 ul {
@@ -111,8 +65,8 @@ ul {
 }
 
 section {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 
   @media (max-width: 767px) {
     padding-top: 64px;
@@ -127,22 +81,46 @@ svg {
   display: block;
 }
 
-.container-responsivo-full {
-  @media (min-width: 1440px) {
-    max-width: 1200px !important;
-  }
-  @media (min-width: 1660px) {
-    max-width: 1576px !important;
+.bg-primary-var-1 {
+  background-color: var(--primary-01-var-1);
+  color: var(--text-white);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p,
+  a {
+    color: var(--text-white);
   }
 }
 
-.container-internas {
-  @media (min-width: 1440px) {
-    max-width: 1240px !important;
+.container {
+  @media (min-width: 992px) {
+    max-width: 991px;
   }
+  @media (min-width: 1200px) {
+    max-width: 1050px;
+  }
+
+  @media (max-width: 575px) {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.container-responsivo-full {
+  @media (min-width: 1260px) {
+    max-width: 1130px !important;
+  }
+
+  @media (min-width: 1360px) {
+    max-width: 1280px !important;
+  }
+
   @media (min-width: 1660px) {
-    max-width: 1446px !important;
-    padding: 0;
+    max-width: 1408px !important;
   }
 }
 
@@ -203,6 +181,7 @@ svg {
 
   a {
     font-weight: 500;
+    // color: var(--system-link);
     font-size: rem(14);
   }
 }

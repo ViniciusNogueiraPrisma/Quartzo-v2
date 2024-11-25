@@ -1376,13 +1376,13 @@
           .swiper-pagination-bullet {
             border-radius: 5px;
             transition: 0.5s;
-            background-color: #8148e4;
+            background-color: #46B261;
             opacity: 0.8;
             margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 7px) !important;
           }
 
           .swiper-pagination-bullet-active {
-            background-color: #8148e4 !important;
+            background-color: #46B261 !important;
             transition: 0.5s;
             width: 75px;
             opacity: 1 !important;
@@ -1981,7 +1981,7 @@
   margin-top: 40px;
 
   button[aria-expanded="true"] {
-    background-color: #8148e4 !important;
+    background-color: #46B261 !important;
 
     .accordion-body {
     }
@@ -1993,7 +1993,7 @@
 
   .accordion .accordion-collapse .accordion-body {
     // background-color: #1d1d1d !important;
-    border-left: 2px solid #8148e4;
+    border-left: 2px solid #46B261;
   }
 }
 
@@ -2058,7 +2058,7 @@
       width: fit-content;
       border-radius: 4px;
       padding: 20px 26px;
-      background-color: #8148e4;
+      background-color: #46B261;
       text-decoration: none;
 
       color: var(--token_color-button-primary-solid---btn-label-default, #fff);

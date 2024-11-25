@@ -1486,14 +1486,14 @@ svg {
 }
 .accordion .accordion-header:hover button:hover {
   transition: 0.4s ease-in-out;
-  background-color: #8148e4;
+  background-color: #46B261;
 }
 .accordion .accordion-header button {
   padding: 24px !important;
   font-size: 1.125rem;
   color: var(--component-accordion-accordion-text, #fff);
   border: none;
-  border-left: 2px solid #8148e4;
+  border-left: 2px solid #46B261;
   box-shadow: none;
   font-weight: 400;
   border-radius: 4px !important;
@@ -1520,7 +1520,7 @@ svg {
   padding: 0px 24px 24px 24px;
   border-radius: 0 0 9px 9px;
   transition: 0.3s;
-  background-color: #8148e4;
+  background-color: #46B261;
   font-size: 18px;
   font-family: Arial;
   font-weight: 400;
@@ -1532,7 +1532,7 @@ svg {
 .accordion button[aria-expanded=true] {
   border-bottom-left-radius: 0px !important;
   border-bottom-right-radius: 0px !important;
-  background-color: #8148e4;
+  background-color: #46B261;
 }
 
 .accordions-contents {
@@ -2593,7 +2593,7 @@ body.open-menu::after {
   transform: rotate(180deg);
 }
 .mobile-menu .nav-mobile .accordion-item .accordion-button:not(.collapsed) {
-  color: #8148E4;
+  color: #46B261;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   border-bottom-left-radius: 0px;
@@ -5205,7 +5205,7 @@ input#BTLgpd_Evolua_Priv {
 }
 
 .slide {
-  --color: #8148e4;
+  --color: #46B261;
   --hover: #e448d2;
 }
 
@@ -6720,12 +6720,12 @@ input#BTLgpd_Evolua_Priv {
 .tab-pane-sis .tab-content .tab-pane .main-content .swiper-pagination .swiper-pagination-bullet {
   border-radius: 5px;
   transition: 0.5s;
-  background-color: #8148e4;
+  background-color: #46B261;
   opacity: 0.8;
   margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 7px) !important;
 }
 .tab-pane-sis .tab-content .tab-pane .main-content .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #8148e4 !important;
+  background-color: #46B261 !important;
   transition: 0.5s;
   width: 75px;
   opacity: 1 !important;
@@ -7261,13 +7261,13 @@ input#BTLgpd_Evolua_Priv {
   margin-top: 40px;
 }
 .accordions-gov button[aria-expanded=true] {
-  background-color: #8148e4 !important;
+  background-color: #46B261 !important;
 }
 .accordions-gov .accordion .accordion-header button {
   background-color: #1d1d1d;
 }
 .accordions-gov .accordion .accordion-collapse .accordion-body {
-  border-left: 2px solid #8148e4;
+  border-left: 2px solid #46B261;
 }
 
 .contents-cumu {
@@ -7327,7 +7327,7 @@ input#BTLgpd_Evolua_Priv {
   width: fit-content;
   border-radius: 4px;
   padding: 20px 26px;
-  background-color: #8148e4;
+  background-color: #46B261;
   text-decoration: none;
   color: var(--token_color-button-primary-solid---btn-label-default, #fff);
   font-family: "Bw Seido Raw";
@@ -10003,7 +10003,7 @@ body {
   border-radius: 4px;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: #8148e4;
+  background-color: #46B261;
   color: white;
   font-size: 20px;
   font-family: var(--font-seido);
@@ -10112,12 +10112,12 @@ body {
 .carrosel-xp .mySwiper-xp .swiper-pagination .swiper-pagination-bullet {
   border-radius: 5px;
   transition: 0.5s;
-  background-color: #8148e4;
+  background-color: #46B261;
   opacity: 0.8;
   margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 7px) !important;
 }
 .carrosel-xp .mySwiper-xp .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #8148e4 !important;
+  background-color: #46B261 !important;
   transition: 0.5s;
   width: 75px;
   opacity: 1 !important;
@@ -10174,7 +10174,7 @@ body {
   text-decoration: none;
   padding: 8px 12px;
   border-radius: 4px;
-  background-color: #8148e4;
+  background-color: #46B261;
   width: -moz-fit-content;
   width: fit-content;
   color: var(--token_color-button-primary-solid---btn-label-default, #fff);
@@ -10343,7 +10343,7 @@ body {
 }
 
 .impulso-home {
-  background-color: #8148e4;
+  background-color: #46B261;
   padding-top: 180px;
   margin-top: -96px;
   position: relative;
@@ -10592,12 +10592,12 @@ body {
 .carrosel-invista .mySwiper-invest .swiper-pagination .swiper-pagination-bullet {
   border-radius: 5px;
   transition: 0.5s;
-  background-color: #8148e4;
+  background-color: #46B261;
   opacity: 0.8;
   margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 7px) !important;
 }
 .carrosel-invista .mySwiper-invest .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #8148e4 !important;
+  background-color: #46B261 !important;
   transition: 0.5s;
   width: 75px;
   opacity: 1 !important;
@@ -10988,12 +10988,12 @@ body {
 .mySwiper-cards-home .swiper-pagination .swiper-pagination-bullet {
   border-radius: 5px;
   transition: 0.5s;
-  background-color: #8148e4;
+  background-color: #46B261;
   opacity: 0.8;
   margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 7px) !important;
 }
 .mySwiper-cards-home .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #8148e4 !important;
+  background-color: #46B261 !important;
   transition: 0.5s;
   width: 75px;
   opacity: 1 !important;
@@ -12994,7 +12994,7 @@ footer .itens-footer .links .item a {
 .numbers-container .number h1 {
   margin: 0;
   padding: 0;
-  color: var(--base-text-color-text-tertiary, #8148e4);
+  color: var(--base-text-color-text-tertiary, #46B261);
   font-family: var(--font-seido);
   font-size: 6rem;
   font-style: normal;
@@ -13225,7 +13225,7 @@ footer .itens-footer .links .item a {
   width: -moz-fit-content;
   width: fit-content;
   text-decoration: none;
-  background-color: #8148e4;
+  background-color: #46B261;
   border-radius: 4px;
   padding: 12px 20px;
   color: var(--token_color-button-primary-solid---btn-label-default, #fff);
@@ -13260,12 +13260,12 @@ footer .itens-footer .links .item a {
 .swiper-person .swiper-pagination .swiper-pagination-bullet {
   border-radius: 5px;
   transition: 0.5s;
-  background-color: #8148e4;
+  background-color: #46B261;
   opacity: 0.8;
   margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 7px) !important;
 }
 .swiper-person .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #8148e4 !important;
+  background-color: #46B261 !important;
   transition: 0.5s;
   width: 75px;
   opacity: 1 !important;
@@ -13374,7 +13374,7 @@ footer .itens-footer .links .item a {
   text-decoration: none;
   border-radius: 4px;
   padding: 20px 26px;
-  background-color: #8148e4;
+  background-color: #46B261;
   color: var(--token_color-button-primary-solid---btn-label-default, #fff);
   font-family: "Bw Seido Raw";
   font-size: 18px;
