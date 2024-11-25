@@ -870,7 +870,8 @@
         font-size: rem(12);
         font-style: normal;
         font-weight: 400;
-        line-height: 132%; /* 15.84px */
+        line-height: 132%;
+        /* 15.84px */
       }
     }
   }
@@ -1003,7 +1004,8 @@
       font-size: rem(96);
       font-style: normal;
       font-weight: 700;
-      line-height: 110%; /* 105.6px */
+      line-height: 110%;
+      /* 105.6px */
 
       @media (max-width: 775px) {
         font-size: rem(64);
@@ -1252,7 +1254,8 @@
       font-size: 24px;
       font-style: normal;
       font-weight: 500;
-      line-height: 132%; /* 31.68px */
+      line-height: 132%;
+      /* 31.68px */
     }
 
     a {
@@ -1353,7 +1356,8 @@
         font-size: 24px;
         font-style: normal;
         font-weight: 500;
-        line-height: 132%; /* 31.68px */
+        line-height: 132%;
+        /* 31.68px */
       }
 
       p {
@@ -1780,10 +1784,8 @@
     font-size: var(--font-size-font-size-body-xl, 18px);
     font-style: normal;
     font-weight: 400;
-    line-height: var(
-      --font-line-height-font-line-height-body-xl,
-      28px
-    ); /* 155.556% */
+    line-height: var(--font-line-height-font-line-height-body-xl, 28px);
+    /* 155.556% */
   }
 
   .first-texts-banner {
@@ -1796,7 +1798,8 @@
       font-size: var(--Font-size-display, 56px);
       font-style: normal;
       font-weight: 800;
-      line-height: var(--Font-line-height-display, 68px); /* 121.429% */
+      line-height: var(--Font-line-height-display, 68px);
+      /* 121.429% */
     }
 
     h2 {
@@ -1824,6 +1827,7 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+  width: 1128px;
 
   @media (max-width: 1200px) {
     width: 100%;
@@ -1851,7 +1855,8 @@
     font-size: var(--Font-size-h1, 40px);
     font-style: normal;
     font-weight: 300;
-    line-height: var(--Font-line-height-h1, 52px); /* 130% */
+    line-height: var(--Font-line-height-h1, 52px);
+    /* 130% */
   }
 
   p {
@@ -1900,7 +1905,8 @@
       font-size: var(--Font-size-h1, 40px);
       font-style: normal;
       font-weight: 300;
-      line-height: var(--Font-line-height-h1, 52px); /* 130% */
+      line-height: var(--Font-line-height-h1, 52px);
+      /* 130% */
     }
 
     p {
@@ -1932,7 +1938,8 @@
     font-size: var(--Font-size-h1, 40px);
     font-style: normal;
     font-weight: 300;
-    line-height: var(--Font-line-height-h1, 52px); /* 130% */
+    line-height: var(--Font-line-height-h1, 52px);
+    /* 130% */
   }
 }
 
@@ -1947,7 +1954,7 @@
     overflow: hidden;
 
     &:hover {
-      width: 991px;
+      width: 100%;
       transition: 0.5s;
 
       .title-infos {
@@ -1970,12 +1977,12 @@
         position: absolute;
         overflow: hidden;
         height: 100%;
-        width: 991px;
+        width: 100%;
       }
 
       img {
         height: 650px;
-        width: 991px;
+        width: 100%;
         object-fit: cover;
       }
     }
@@ -2003,13 +2010,15 @@
         font-size: var(--Font-size-h3, 26px);
         font-style: normal;
         font-weight: 400;
-        line-height: var(--Font-line-height-h3, 32px); /* 123.077% */
+        line-height: var(--Font-line-height-h3, 32px);
+        /* 123.077% */
       }
     }
 
     .last-infos {
       height: 650px;
-      width: 991px;
+      // width: 100%;
+      width: 1128px;
       padding-right: 62px;
       padding-left: 62px;
       padding-bottom: 62px;
@@ -2034,7 +2043,7 @@
         font-size: var(--Font-size-h2, 32px);
         font-style: normal;
         font-weight: 500;
-        line-height: var(--Font-line-height-h2, 40px); /* 125% */
+        line-height: var(--Font-line-height-h2, 40px);
       }
 
       h3 {
@@ -2047,7 +2056,8 @@
         font-size: var(--Font-size-h3, 26px);
         font-style: normal;
         font-weight: 400;
-        line-height: var(--Font-line-height-h3, 32px); /* 123.077% */
+        line-height: var(--Font-line-height-h3, 32px);
+        /* 123.077% */
       }
 
       p {
@@ -2082,13 +2092,13 @@
         font-size: var(--Font-size-body-md, 14px);
         font-style: normal;
         font-weight: 400;
-        line-height: var(--Font-line-height-body-md, 24px); /* 171.429% */
+        line-height: var(--Font-line-height-body-md, 24px);
       }
     }
   }
 
   .item.active {
-    width: 991px;
+    width: 100%;
     transition: 0.5s;
 
     .title-infos {
@@ -2221,6 +2231,14 @@
   }
 }
 
+.links-menu {
+  button {
+    background-color: unset;
+    border: unset;
+    font-size: 22px;
+  }
+}
+
 .midia-quartzo {
   margin-top: 74px;
   padding: 40px var(--Pages-Home-midia-padding-lateral, 64px);
@@ -2249,10 +2267,8 @@
         font-size: var(--font-size-font-size-h2, 32px);
         font-style: normal;
         font-weight: 300;
-        line-height: var(
-          --font-line-height-font-line-height-h2,
-          42px
-        ); /* 131.25% */
+        line-height: var(--font-line-height-font-line-height-h2, 42px);
+        /* 131.25% */
       }
 
       p {
@@ -2301,7 +2317,7 @@
         font-size: var(--Font-size-h2, 32px);
         font-style: normal;
         font-weight: 500;
-        line-height: var(--Font-line-height-h2, 40px); /* 125% */
+        line-height: var(--Font-line-height-h2, 40px);
       }
 
       p {
@@ -2310,7 +2326,7 @@
         font-size: var(--Font-size-body-lg, 16px);
         font-style: normal;
         font-weight: 400;
-        line-height: var(--Font-line-height-body-lg, 26px); /* 162.5% */
+        line-height: var(--Font-line-height-body-lg, 26px);
       }
 
       .flex-imgs {
@@ -2334,7 +2350,8 @@
         font-size: var(--Font-size-body-md, 14px);
         font-style: normal;
         font-weight: 400;
-        line-height: var(--Font-line-height-body-md, 24px); /* 171.429% */
+        line-height: var(--Font-line-height-body-md, 24px);
+
         width: fit-content;
         text-decoration: none;
         display: flex;
@@ -2362,7 +2379,8 @@
   font-size: var(--Font-size-body-md, 14px);
   font-style: normal;
   font-weight: 400;
-  line-height: var(--Font-line-height-body-md, 24px); /* 171.429% */
+  line-height: var(--Font-line-height-body-md, 24px);
+
   width: fit-content;
   text-decoration: none;
   display: flex;
@@ -2391,7 +2409,13 @@
     &::before {
       content: "";
       position: absolute;
-      background-color: #0000006b;
+      // background-color: #0000006b;
+      background: rgb(0, 0, 0);
+      background: linear-gradient(
+        100deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
       width: 100%;
       height: 100%;
     }
@@ -2419,7 +2443,8 @@
       font-size: var(--Font-size-h1, 40px);
       font-style: normal;
       font-weight: 300;
-      line-height: var(--Font-line-height-h1, 52px); /* 130% */
+      line-height: var(--Font-line-height-h1, 52px);
+      /* 130% */
     }
   }
 
@@ -2447,7 +2472,7 @@
       font-size: var(--Font-size-body-lg, 16px);
       font-style: normal;
       font-weight: 400;
-      line-height: var(--Font-line-height-body-lg, 26px); /* 162.5% */
+      line-height: var(--Font-line-height-body-lg, 26px);
     }
   }
 }
@@ -2460,27 +2485,371 @@
   h2 {
     margin: 0;
     padding: 0;
+    margin-bottom: 24px;
 
     color: var(--Text-title-subtitle, #328045);
     font-family: var(--font-family-title, Poppins);
     font-size: var(--Font-size-h2, 32px);
     font-style: normal;
     font-weight: 500;
-    line-height: var(--Font-line-height-h2, 40px); /* 125% */
+    line-height: var(--Font-line-height-h2, 40px);
   }
 
   p {
     margin: 0;
     padding: 0;
+    margin-bottom: 24px;
+
+    color: var(--Text-body-body-lg, #333);
+    font-family: var(--font-family-body, "Open Sans");
+    font-size: var(--Font-size-body-lg, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--Font-line-height-body-lg, 26px);
+
+    strong {
+      color: var(--Text-accent-accent, #46b261);
+      font-family: var(--font-family-body, "Open Sans");
+      font-size: var(--Font-size-body-lg, 16px);
+      font-style: normal;
+      font-weight: 700;
+      line-height: var(--Font-line-height-body-lg, 26px);
+    }
   }
 
   h3 {
     margin: 0;
     padding: 0;
+
+    color: var(--Text-body-body-xl, #1a1a1a);
+    font-family: var(--font-family-body, "Open Sans");
+    font-size: var(--Font-size-body-xl, 18px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: var(--Font-line-height-body-xl, 28px);
+    /* 155.556% */
   }
 
   img {
     border-radius: 4px;
     object-fit: cover;
+    margin-top: 32px;
+    margin-bottom: 64px;
+    width: 100%;
+    height: 664px;
+  }
+}
+
+.manifesto-sobre {
+  background: linear-gradient(
+    0deg,
+    rgba(44, 60, 77, 0.8) 0%,
+    rgba(44, 60, 77, 0.8) 100%
+  );
+  padding: 82px 0px;
+
+  .content-manifesto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+    .assista-manifesto {
+      a {
+        text-decoration: none;
+        display: flex;
+
+        width: 341px;
+        gap: 32px;
+        color: var(--Text-title-inverse, #fff);
+        font-family: var(--font-family-title, Poppins);
+        font-size: var(--Font-size-h2, 32px);
+        font-style: normal;
+        font-weight: 500;
+        line-height: var(--Font-line-height-h2, 40px);
+
+        img {
+        }
+      }
+    }
+
+    .texts-manifesto {
+      p:last-of-type {
+        margin-bottom: 0px;
+      }
+
+      p {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 24px;
+
+        color: var(--Text-body-inverse, #fff);
+        font-family: var(--font-family-body, "Open Sans");
+        font-size: var(--Font-size-body-lg, 16px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: var(--Font-line-height-body-lg, 26px);
+      }
+    }
+  }
+}
+
+.numbers-sobre {
+  padding: 210px 0px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url("../../images/bg-numbers-sobre.jpeg") #d3d3d3 50% / cover no-repeat !important;
+
+  .itens-numbers {
+    gap: 24px;
+  }
+
+  .box {
+    border-radius: 4px var(--Pages-Cases-number-border-radius-top-right, 24px);
+    border-right: 1px solid rgba(255, 255, 255, 0.16);
+    background: rgba(0, 0, 0, 0.56);
+    padding: 40px 24px;
+    text-align: start;
+    align-items: baseline;
+    justify-content: baseline;
+
+    gap: 0px;
+
+    span {
+      margin-bottom: 24px;
+      color: var(--Text-body-inverse, #fff);
+      font-family: var(--font-family-body, "Open Sans");
+      font-size: var(--Font-size-body-lg, 16px);
+      font-style: normal;
+      font-weight: 400;
+      line-height: var(--Font-line-height-body-lg, 26px);
+    }
+
+    h3 {
+      margin: 0;
+      padding: 0;
+
+      text-align: start;
+      color: var(--Text-body-inverse, #fff);
+      font-family: var(--font-family-title, Poppins);
+      font-size: var(--Font-size-h5, 22px);
+      font-style: normal;
+      font-weight: 400;
+      line-height: var(--Font-line-height-h5, 30px);
+      /* 136.364% */
+    }
+  }
+}
+
+.postura-sobre {
+  padding: 72px 0px;
+
+  .title-postura {
+    margin-bottom: 24px;
+    text-align: center;
+
+    h3 {
+      margin: 0;
+      padding: 0;
+
+      color: var(--Text-title-subtitle, #328045);
+      font-family: var(--font-family-title, Poppins);
+      font-size: var(--Font-size-h2, 32px);
+      font-style: normal;
+      font-weight: 500;
+      line-height: var(--Font-line-height-h2, 40px);
+      /* 125% */
+    }
+  }
+
+  .cards-postura {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+
+    .card {
+      border-radius: 4px var(--Pages-Cases-number-border-radius-top-right, 24px);
+      background: var(--Background-secondary, #2c3c4d);
+      display: flex;
+      padding: 64px 32px;
+      flex-direction: column;
+      align-items: flex-start;
+      align-self: stretch;
+      gap: 64px;
+
+      .texts-card {
+        h2 {
+          margin: 0;
+          padding: 0;
+          margin-bottom: 16px;
+
+          color: var(--Text-title-inverse, #fff);
+          font-family: var(--font-family-title, Poppins);
+          font-size: var(--Font-size-h3, 26px);
+          font-style: normal;
+          font-weight: 400;
+          line-height: var(--Font-line-height-h3, 32px); /* 123.077% */
+        }
+
+        p {
+          color: var(--Text-body-inverse, #fff);
+          font-family: var(--font-family-body, "Open Sans");
+          font-size: var(--Font-size-body-lg, 16px);
+          font-style: normal;
+          font-weight: 400;
+          line-height: var(--Font-line-height-body-lg, 26px);
+        }
+      }
+    }
+  }
+}
+
+.parceiros-sobre {
+  padding: 72px 0px;
+  background: var(--Background-secondary, #2c3c4d);
+
+  .content-parceiros {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+
+    .title-parceiros {
+      width: 30%;
+
+      h3 {
+        margin: 0;
+        padding: 0;
+
+        color: var(--Text-title-inverse, #fff);
+        font-family: var(--font-family-title, Poppins);
+        font-size: var(--Font-size-h2, 32px);
+        font-style: normal;
+        font-weight: 500;
+        line-height: var(--Font-line-height-h2, 40px); /* 125% */
+      }
+    }
+
+    .logo-parceiros {
+      width: 70%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 32px;
+
+      img {
+        height: 100%;
+        padding: 16px;
+        width: 100%;
+        border-radius: var(--Default-Border-sm-radius, 2px)
+          var(--Default-Border-xl-radius, 16px);
+        background: var(--Background-light, #fff);
+      }
+    }
+  }
+}
+
+.diretoria-sobre {
+  padding: 72px 0px;
+
+  .title-diretoria {
+    width: 1128px;
+
+    @media (max-width: 1200px) {
+      width: 100%;
+    }
+
+    h3 {
+      margin: 0;
+      padding: 0;
+
+      margin-bottom: 24px;
+      color: var(--Text-title-subtitle, #328045);
+      font-family: var(--font-family-title, Poppins);
+      font-size: var(--Font-size-h2, 32px);
+      font-style: normal;
+      font-weight: 500;
+      line-height: var(--Font-line-height-h2, 40px); /* 125% */
+    }
+
+    p {
+      color: var(--Text-body-body-lg, #333);
+      font-family: var(--font-family-body, "Open Sans");
+      font-size: var(--Font-size-body-lg, 16px);
+      font-style: normal;
+      font-weight: 400;
+      line-height: var(--Font-line-height-body-lg, 26px);
+    }
+  }
+
+  .cards-diretoria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    margin-top: 24px;
+
+    .card {
+      border-radius: var(--Default-Border-md-radius, 4px)
+        var(--Pages-Cases-number-border-radius-top-right, 24px);
+      background: var(--Background-secondary-02, #253240);
+      padding: 32px;
+
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+
+      .text-card {
+        h3:after {
+          content: "";
+          display: flex;
+          margin: 16px 0px;
+          width: 38px;
+          height: var(----Estrutura-Navbar-Number, 1px);
+          opacity: 0.72;
+          background: var(--color-neutral-white, #fff);
+        }
+
+        h3 {
+          margin: 0;
+          padding: 0;
+
+          color: var(--color-neutral-white, #fff);
+          font-family: var(--font-family-title, Poppins);
+          font-size: var(--Font-size-h6, 20px);
+          font-style: normal;
+          font-weight: 700;
+          line-height: var(--Font-line-height-h6, 28px);
+        }
+
+        p {
+          color: var(--Text-body-inverse, #fff);
+          font-family: var(--font-family-body, "Open Sans");
+          font-size: var(--Font-size-body-lg, 16px);
+          font-style: normal;
+          font-weight: 400;
+          line-height: var(--Font-line-height-body-lg, 26px);
+        }
+      }
+
+      .link-card {
+        display: flex;
+        align-items: start;
+
+        a {
+          text-decoration: none;
+          display: flex;
+          flex-direction: row-reverse;
+          align-items: center;
+
+          gap: 8px;
+          color: var(--Text-body-inverse, #fff);
+          font-family: var(--font-family-body, "Open Sans");
+          font-size: var(--Font-size-body-md, 14px);
+          font-style: normal;
+          font-weight: 400;
+          line-height: var(--Font-line-height-body-md, 24px);
+        }
+      }
+    }
   }
 }

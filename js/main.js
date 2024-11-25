@@ -330,6 +330,36 @@ document
 
 /* Carousels */
 
+// ff carrosel item home
+const items = document.querySelectorAll(".container-swiper-solutions .item");
+let currentIndex = 0;
+let interval;
+
+const startAutoSwitch = () => {
+  interval = setInterval(() => {
+    items[currentIndex].classList.remove("active");
+    currentIndex = (currentIndex + 1) % items.length;
+    items[currentIndex].classList.add("active");
+  }, 5000);
+};
+
+const stopAutoSwitch = () => {
+  clearInterval(interval);
+};
+
+items.forEach((item, index) => {
+  item.addEventListener("mouseenter", () => {
+    stopAutoSwitch();
+    items[currentIndex].classList.remove("active");
+    currentIndex = index;
+    item.classList.add("active");
+  });
+
+  item.addEventListener("mouseleave", startAutoSwitch);
+});
+
+startAutoSwitch();
+
 $(document).ready(function () {
   if (window.matchMedia("(max-width: 767px)").matches) {
     // Slick Banner Home
