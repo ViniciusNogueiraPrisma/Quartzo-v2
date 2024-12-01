@@ -36,57 +36,6 @@
   }
 }
 
-.footer {
-  // background-color: var(--primary-01-default);
-  // background-color: #fafafa;
-  background-color: var(--pure-white);
-  padding: 16px 0;
-
-  margin-top: auto;
-
-  .footer-bottom-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 8px;
-
-    flex-wrap: wrap;
-
-    @media (max-width: 375px) {
-      flex-direction: column;
-    }
-
-    .direitos-reservados {
-      @media (max-width: 767px) {
-        flex: 100%;
-      }
-    }
-
-    p {
-      color: #666666;
-      font-size: 14px;
-      font-family: var(--font-sans);
-      font-weight: 400;
-      line-height: 19.6px;
-      word-wrap: break-word;
-    }
-
-    .byRiweb {
-      display: flex;
-      align-items: center;
-
-      span {
-        font-size: 12px;
-      }
-
-      img {
-        flex-shrink: 0;
-        margin-left: 12px;
-      }
-    }
-  }
-}
-
 .footer-fixed {
   .top-footer-fixed {
     .button-mapa-site {
