@@ -4280,7 +4280,6 @@
         font-style: normal;
         font-weight: 700;
         line-height: var(--Font-line-height-body-xl, 28px);
-        /* 155.556% */
       }
 
       p {
@@ -4561,7 +4560,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: var(--Font-line-height-h3, 32px);
-    /* 123.077% */
   }
 
   h4 {
@@ -4749,7 +4747,6 @@
       font-style: normal;
       font-weight: 400;
       line-height: var(--Font-line-height-body-lg, 26px);
-      /* 162.5% */
     }
   }
 
@@ -4840,7 +4837,6 @@
           font-style: normal;
           font-weight: 700;
           line-height: var(--Font-line-height-body-xl, 28px);
-          /* 155.556% */
         }
       }
     }
@@ -4901,7 +4897,7 @@
             font-size: var(--Font-size-h3, 26px);
             font-style: normal;
             font-weight: 400;
-            line-height: var(--Font-line-height-h3, 32px); /* 123.077% */
+            line-height: var(--Font-line-height-h3, 32px);
           }
 
           h4 {
@@ -4923,7 +4919,7 @@
             font-size: var(--Font-size-body-lg, 16px);
             font-style: normal;
             font-weight: 400;
-            line-height: var(--Font-line-height-body-lg, 26px); /* 162.5% */
+            line-height: var(--Font-line-height-body-lg, 26px);
           }
 
           .fusoes-cards-swiper {
@@ -4963,6 +4959,215 @@
           }
         }
       }
+    }
+  }
+}
+
+.valuation {
+  .content-valuation {
+    h3 {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 24px;
+      color: var(--Text-title-subtitle, #328045);
+      font-family: var(--font-family-title, Poppins);
+      font-size: var(--Font-size-h2, 32px);
+      font-style: normal;
+      font-weight: 500;
+      line-height: var(--Font-line-height-h2, 40px); /* 125% */
+    }
+
+    h4 {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 8px;
+
+      color: var(--Text-title-subtle, #595959);
+      font-family: var(--font-family-title, Poppins);
+      font-size: var(--Font-size-h3, 26px);
+      font-style: normal;
+      font-weight: 400;
+      line-height: var(--Font-line-height-h3, 32px);
+    }
+
+    p {
+      margin-bottom: 24px;
+
+      color: var(--Text-body-body-lg, #333);
+      font-family: var(--font-family-body, "Open Sans");
+      font-size: var(--Font-size-body-lg, 16px);
+      font-style: normal;
+      font-weight: 400;
+      line-height: var(--Font-line-height-body-lg, 26px);
+    }
+
+    span {
+      color: var(--Text-body-body-lg, #333);
+      font-family: var(--font-family-body, "Open Sans");
+      font-size: var(--Font-size-body-lg, 16px);
+      font-style: normal;
+      font-weight: 700;
+      line-height: var(--Font-line-height-body-lg, 26px);
+    }
+
+    .cards-valuation {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 32px;
+      margin: 24px 0px;
+
+      .cards {
+        display: flex;
+        padding: var(--card-diferenciais-padding-vertical, 48px)
+          var(--card-diferenciais-padding-lateral, 32px);
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        flex: 1 0 0;
+        border-radius: 4px 24px;
+        background: var(--Background-secondary, #2c3c4d);
+
+        p {
+          color: var(--Text-body-inverse, #fff);
+          font-family: var(--font-family-body, "Open Sans");
+          font-size: var(--Font-size-body-xl, 18px);
+          font-style: normal;
+          font-weight: 700;
+          line-height: var(--Font-line-height-body-xl, 28px);
+        }
+      }
+    }
+  }
+}
+
+.pq-valuation {
+  padding-bottom: 72px;
+
+  .cards-valuation {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    margin-top: 24px;
+
+    .cards {
+      display: flex;
+      padding: var(--card-diferenciais-padding-vertical, 48px)
+        var(--card-diferenciais-padding-lateral, 32px);
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+      flex: 1 0 0;
+      border-radius: 4px 24px;
+      background: var(--Background-secondary, #2c3c4d);
+
+      p {
+        color: var(--Text-body-inverse, #fff);
+        font-family: var(--font-family-body, "Open Sans");
+        font-size: var(--Font-size-body-xl, 18px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: var(--Font-line-height-body-xl, 28px);
+      }
+    }
+  }
+
+  h4 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+
+    color: var(--Text-title-subtle, #595959);
+    font-family: var(--font-family-title, Poppins);
+    font-size: var(--Font-size-h3, 26px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--Font-line-height-h3, 32px);
+  }
+
+  p {
+    margin-bottom: 24px;
+    color: var(--Text-body-body-lg, #333);
+    font-family: var(--font-family-body, "Open Sans");
+    font-size: var(--Font-size-body-lg, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--Font-line-height-body-lg, 26px);
+  }
+
+  span {
+    color: var(--Text-body-body-lg, #333);
+    font-family: var(--font-family-body, "Open Sans");
+    font-size: var(--Font-size-body-lg, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--Font-line-height-body-lg, 26px);
+  }
+
+  .image-valuation {
+    margin-top: 48px;
+
+    img {
+      margin: 0 auto;
+    }
+
+    p {
+      margin-bottom: 24px;
+      text-align: center;
+      color: var(--Text-body-body-lg, #333);
+      font-family: var(--font-family-body, "Open Sans");
+      font-size: var(--Font-size-body-lg, 16px);
+      font-style: normal;
+      font-weight: 400;
+      line-height: var(--Font-line-height-body-lg, 26px); /* 162.5% */
+    }
+  }
+}
+
+.destino-valuation {
+  background: var(--Background-secondary, #2c3c4d);
+
+  .title-destino {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+      all: initial;
+      margin-bottom: 24px;
+      color: var(--Text-title-inverse, #fff);
+      text-align: center;
+      font-family: var(--font-family-title, Poppins);
+      font-size: var(--Font-size-h2, 32px);
+      font-style: normal;
+      font-weight: 500;
+      line-height: var(--Font-line-height-h2, 40px); /* 125% */
+    }
+
+    p {
+      margin-bottom: 24px;
+      color: var(--Text-body-inverse, #fff);
+      text-align: center;
+      font-family: var(--font-family-body, "Open Sans");
+      font-size: var(--Font-size-body-lg, 16px);
+      font-style: normal;
+      font-weight: 400;
+      line-height: var(--Font-line-height-body-lg, 26px); /* 162.5% */
+    }
+
+    span {
+      color: var(--Text-title-inverse, #fff);
+      text-align: center;
+      font-family: var(--font-family-title, Poppins);
+      font-size: var(--Font-size-h3, 26px);
+      font-style: normal;
+      font-weight: 400;
+      line-height: var(--Font-line-height-h3, 32px); /* 123.077% */
+    }
+
+    img {
+      margin-top: 32px;
     }
   }
 }
