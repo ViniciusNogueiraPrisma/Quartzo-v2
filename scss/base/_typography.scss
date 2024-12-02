@@ -77,9 +77,12 @@ h3,
   margin-bottom: 24px;
   padding-top: 40px;
 
-  font-weight: 700;
-  font-size: rem(28);
-  line-height: 132%;
+  color: var(--Text-title-subtitle, #328045);
+  font-family: var(--font-family-title, Poppins);
+  font-size: var(--Font-size-h2, 32px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: var(--Font-line-height-h2, 40px);
 
   @media (max-width: 991px) {
     font-size: rem(22);

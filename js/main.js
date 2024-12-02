@@ -564,26 +564,26 @@ if ($("modalVideo")) {
 }
 
 /* Scroll to accordion */
-$(document).ready(function () {
-  let buttonAccordions = document.querySelectorAll(
-    ".accordion:not(#accordionMenuMobile) button.accordion-button"
-  );
-  buttonAccordions.forEach((i) => {
-    i.addEventListener("click", () => {
-      setTimeout(() => {
-        if (!i.classList.contains("collapsed")) {
-          const id = i.getAttribute("data-bs-target");
-          const section = $(id);
-          const topo = section.offset().top;
-          window.scrollTo({
-            top: topo - 230,
-            behavior: "smooth",
-          });
-        }
-      }, 410);
-    });
-  });
-});
+// $(document).ready(function () {
+//   let buttonAccordions = document.querySelectorAll(
+//     ".accordion:not(#accordionMenuMobile) button.accordion-button"
+//   );
+//   buttonAccordions.forEach((i) => {
+//     i.addEventListener("click", () => {
+//       setTimeout(() => {
+//         if (!i.classList.contains("collapsed")) {
+//           const id = i.getAttribute("data-bs-target");
+//           const section = $(id);
+//           const topo = section.offset().top;
+//           window.scrollTo({
+//             top: topo - 230,
+//             behavior: "smooth",
+//           });
+//         }
+//       }, 410);
+//     });
+//   });
+// });
 
 const storys = new PrismaStories("slide", "openStorys", "closeStorys");
 storys.init();

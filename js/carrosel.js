@@ -41,3 +41,13 @@ var swiper = new Swiper(".mySwiper-cases", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+var swiper = new Swiper(".mySwiper-captacao", {
+  spaceBetween: 24,
+  slidesPerView: "auto",
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
