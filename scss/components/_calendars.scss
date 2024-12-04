@@ -37,13 +37,6 @@
 }
 
 .ui-datepicker-header {
-  padding: 16px 8px;
-  background-color: var(--grey-scale-01);
-
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-
   .ui-corner-all {
     display: flex;
     align-items: center;
@@ -54,9 +47,10 @@
       display: block;
 
       &::after {
-        content: url("../images/icons/icon-arrow-right.svg");
+        content: url("../../images/arrow-left-calendar.svg");
         display: block;
         height: 16px;
+        margin-top: -2px;
       }
     }
 
@@ -75,13 +69,16 @@
     text-align: center;
 
     span {
-      font-size: rem(18);
-      color: var(--text-secondary-01-default);
-      font-weight: 600;
+      color: var(--Text-body-body-xl, #f0f0f2);
+      font-family: var(--font-family-body, "Open Sans");
+      font-size: var(--Font-size-body-lg, 16px);
+      font-style: normal;
+      font-weight: 400;
+      line-height: var(--Font-line-height-body-lg, 26px);
 
       &:nth-child(1) {
         &::after {
-          content: " /";
+          // content: "/";
         }
       }
     }
@@ -93,22 +90,32 @@
 
   thead {
     th {
-      background-color: var(--primary-01-default);
-      color: var(--text-white);
-      font-size: rem(14);
-      padding: 7px 14px;
+      padding: 8px 12px;
+
+      color: var(--Text-body-body-lg, #e5e5e5);
       text-align: center;
+      font-family: var(--font-family-body, "Open Sans");
+      font-size: var(--Font-size-body-md, 14px);
+      font-style: normal;
+      font-weight: 400;
+      line-height: var(--Font-line-height-body-md, 24px); /* 171.429% */
     }
   }
 
   tbody {
     td {
       a {
-        color: var(--text-color);
         text-decoration: none;
         text-align: center;
         display: block;
-        padding: 7px 14px;
+        padding: 8px 12px;
+
+        color: var(--Text-body-body-lg, #e5e5e5);
+        font-family: var(--font-family-body, "Open Sans");
+        font-size: var(--Font-size-body-lg, 16px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: var(--Font-line-height-body-lg, 26px);
 
         &.yellow {
           color: #ffc700;
@@ -198,7 +205,6 @@
   padding: 0;
   transition: 0.3s;
   display: flex;
-  //   align-items: flex-start;
   align-items: center;
   justify-content: space-between;
   gap: 16px;

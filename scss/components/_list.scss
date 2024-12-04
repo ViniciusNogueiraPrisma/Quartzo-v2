@@ -510,15 +510,19 @@
 }
 
 .li-cores-calendario {
-  margin-top: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 12px;
-
+  margin: 0;
   padding: 0;
-  margin-bottom: 0;
+  margin-top: 24px;
+
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  flex-wrap: wrap;
+  border-radius: 4px;
+  background: var(--Background-secondary-02, #253240);
 
   li {
     display: flex;
@@ -528,11 +532,16 @@
     span {
       height: 11px;
       width: 11px;
-      border-radius: 2px;
+      border-radius: 100%;
     }
 
     p {
-      font-size: rem(10);
+      color: var(--Text-body-body-sm, #ccc);
+      font-family: var(--font-family-body, "Open Sans");
+      font-size: var(--Font-size-body-md, 14px);
+      font-style: normal;
+      font-weight: 400;
+      line-height: var(--Font-line-height-body-md, 24px);
     }
   }
 }

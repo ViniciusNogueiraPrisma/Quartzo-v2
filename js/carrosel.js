@@ -51,3 +51,13 @@ var swiper = new Swiper(".mySwiper-captacao", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+var swiper = new Swiper(".mySwiper-produtos-corp", {
+  spaceBetween: 24,
+  slidesPerView: "auto",
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});

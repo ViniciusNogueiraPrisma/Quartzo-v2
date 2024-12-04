@@ -130,12 +130,12 @@ p,
 .paragraph {
   margin-bottom: 0px;
 
+  color: var(--Text-body-body-lg, #333);
+  font-family: var(--font-family-body, "Open Sans");
+  font-size: var(--Font-size-body-lg, 16px);
+  font-style: normal;
   font-weight: 400;
-  font-size: rem(16);
-  line-height: 140%;
-
-  color: var(--text-color);
-  font-family: var(--font-neue);
+  line-height: var(--Font-line-height-body-lg, 26px);
 
   &:not(:last-of-type) {
     margin-bottom: 24px;
