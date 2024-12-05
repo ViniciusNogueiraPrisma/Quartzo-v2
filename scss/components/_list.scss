@@ -524,6 +524,10 @@
   border-radius: 4px;
   background: var(--Background-secondary-02, #253240);
 
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
+
   li {
     display: flex;
     align-items: center;

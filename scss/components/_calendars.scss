@@ -92,6 +92,10 @@
     th {
       padding: 8px 12px;
 
+      @media(max-width: 767px) {
+        padding: unset;
+      }
+
       color: var(--Text-body-body-lg, #e5e5e5);
       text-align: center;
       font-family: var(--font-family-body, "Open Sans");

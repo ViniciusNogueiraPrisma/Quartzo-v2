@@ -1697,15 +1697,6 @@ body {
   }
 }
 
-.footer-mapa-site {
-  display: none;
-  margin-top: 40px;
-
-  @media (max-width: 1199px) {
-    display: flex;
-  }
-}
-
 .texts-contato {
   padding-top: 64px;
 
@@ -4127,6 +4118,8 @@ footer {
   background: var(--Background-tertiary, #1d2833);
   padding-top: 80px;
   padding-bottom: 48px;
+  position: relative;
+  z-index: 10;
 
   .links-footer {
     padding-top: 72px;

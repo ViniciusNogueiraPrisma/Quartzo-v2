@@ -15,7 +15,7 @@ body {
 }
 
 .mobile-menu {
-  overflow-y: auto;
+  // overflow-y: auto;
   top: 0px;
   right: 0;
   bottom: 0;
@@ -389,7 +389,7 @@ body {
   transform: translateX(500px);
   transition: 0.6s;
   right: 0;
-  background-color: #0c0c0d;
+  background-color: #2C3C4D;
 
   .menu-body {
     display: flex;
