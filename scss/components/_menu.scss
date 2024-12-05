@@ -15,7 +15,6 @@ body {
 }
 
 .mobile-menu {
-  // overflow-y: auto;
   top: 0px;
   right: 0;
   bottom: 0;
@@ -195,7 +194,6 @@ body {
     position: relative;
     max-width: 100%;
 
-
     /*
 		&::after{
 			content: "";
@@ -289,7 +287,7 @@ body {
         }
 
         &:not(.collapsed) {
-          color: #46B261;
+          color: #46b261;
           border-top-left-radius: 8px;
           border-top-right-radius: 8px;
           border-bottom-left-radius: 0px;
@@ -315,7 +313,7 @@ body {
             flex-direction: column;
             gap: 16px;
             margin-bottom: 0;
-            
+
             .item-menu-mob {
               display: flex;
               gap: 12px;
@@ -389,7 +387,7 @@ body {
   transform: translateX(500px);
   transition: 0.6s;
   right: 0;
-  background-color: #2C3C4D;
+  background-color: #2c3c4d;
 
   .menu-body {
     display: flex;
