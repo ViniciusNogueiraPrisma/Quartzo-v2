@@ -124,6 +124,39 @@ svg {
   }
 }
 
+.container-carrosel-int {
+  max-width: 1220px;
+
+  @media (max-width: 1659px) {
+    max-width: 1069px;
+  }
+
+  @media (max-width: 1359px) {
+    max-width: 940px;
+  }
+
+  @media (max-width: 1260px) {
+    max-width: 877px;
+  }
+
+  @media (max-width: 1200px) {
+    max-width: 991px;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem) !important;
+    padding-left: var(--bs-gutter-x, 0.75rem) !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  @media (max-width: 991px) {
+    max-width: 720px;
+  }
+
+  @media (max-width: 767px) {
+    max-width: 540px;
+  }
+}
+
 .container-header {
   @media (min-width: 1200px) {
     max-width: 1130px !important;

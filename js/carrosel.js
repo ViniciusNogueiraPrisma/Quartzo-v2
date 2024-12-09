@@ -3,6 +3,7 @@ var swiper = new Swiper(".mySwiper-veiculos", {
   slidesPerView: "auto",
 
   pagination: {
+    clickable: true,
     el: ".swiper-pagination",
   },
   navigation: {
@@ -15,6 +16,10 @@ var swiper = new Swiper(".mySwiper-fundos", {
   spaceBetween: 24,
   slidesPerView: "auto",
 
+  pagination: {
+    clickable: true,
+    el: ".swiper-pagination",
+  },
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -24,7 +29,11 @@ var swiper = new Swiper(".mySwiper-fundos", {
 var swiper = new Swiper(".mySwiper-equipe-v", {
   spaceBetween: 24,
   slidesPerView: "auto",
-
+  
+  pagination: {
+    clickable: true,
+    el: ".swiper-pagination",
+  },
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -37,6 +46,7 @@ var swiper = new Swiper(".mySwiper-cases", {
   spaceBetween: 24,
 
   pagination: {
+    clickable: true,
     el: ".swiper-pagination",
   },
   navigation: {
@@ -50,6 +60,7 @@ var swiper = new Swiper(".mySwiper-captacao", {
   slidesPerView: "auto",
 
   pagination: {
+    clickable: true,
     el: ".swiper-pagination",
   },
   navigation: {
@@ -64,6 +75,7 @@ var swiper = new Swiper(".mySwiper-produtos-corp", {
   slidesPerView: "auto",
 
   pagination: {
+    clickable: true,
     el: ".swiper-pagination",
   },
   navigation: {
@@ -92,6 +104,7 @@ var swiper = new Swiper(".mySwiper-projetos-real", {
   slidesPerView: "auto",
 
   pagination: {
+    clickable: true,
     el: ".swiper-pagination",
   },
   navigation: {
