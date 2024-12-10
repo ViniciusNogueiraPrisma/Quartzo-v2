@@ -358,7 +358,7 @@
     color: var(--Font-Titles-title-large, #032b22);
 
     /* Titles/Desktop/H2 */
-    font-family: "Sofia Sans";
+    // font-family: "Sofia Sans";
     font-size: 42px;
     font-style: normal;
     font-weight: 400;
@@ -395,7 +395,7 @@
       padding-bottom: 16px;
 
       color: var(--Font-Titles-title-medium, #fafafa);
-      font-family: "Sofia Sans";
+      // font-family: "Sofia Sans";
       font-size: 27px;
       font-style: normal;
       font-weight: 400;
@@ -700,7 +700,7 @@
         padding-bottom: 96px;
 
         color: var(--Font-Titles-title-large, #1e524f);
-        font-family: "Sofia Sans";
+        // font-family: "Sofia Sans";
         font-size: 42px;
         font-style: normal;
         font-weight: 400;
@@ -908,7 +908,7 @@
         padding: 0;
 
         color: #d9cdb5;
-        font-family: "Sofia Sans";
+        // font-family: "Sofia Sans";
         font-size: 42px;
         font-style: normal;
         font-weight: 400;
@@ -966,7 +966,7 @@
           padding-bottom: 24px;
           align-self: stretch;
           color: #1e524f;
-          font-family: "Sofia Sans";
+          // font-family: "Sofia Sans";
           font-size: 42px;
           font-style: normal;
           font-weight: 400;
@@ -981,7 +981,7 @@
           padding: 0;
 
           color: #03624c;
-          font-family: "Sofia Sans";
+          // font-family: "Sofia Sans";
           font-size: 26px;
           font-style: normal;
           font-weight: 400;
@@ -1023,7 +1023,7 @@
           text-decoration: none;
           color: var(--Button-Primary-Text-text-default, #fff);
           text-align: center;
-          font-family: "Sofia Sans";
+          // font-family: "Sofia Sans";
           font-size: 18px;
           font-style: normal;
           font-weight: 400;
@@ -1077,7 +1077,7 @@
             // CVM automática
             color: #333333;
             font-size: 18px;
-            font-family: "Sofia Sans";
+            // font-family: "Sofia Sans";
             font-weight: 700;
             line-height: 21.6px;
             word-wrap: break-word;
@@ -1216,7 +1216,7 @@
 
       color: white;
       font-size: 42px;
-      font-family: "Sofia Sans";
+      // font-family: "Sofia Sans";
       font-weight: 400;
       line-height: 50.4px;
       word-wrap: break-word;
@@ -1756,7 +1756,7 @@
 
         a {
           width: fit-content !important;
-          font-family: "Sofia Sans";
+          // font-family: "Sofia Sans";
           font-weight: 700;
         }
       }
@@ -1795,12 +1795,16 @@
 
 .container-buscas {
   h2 {
-    font-family: "Sofia Sans", sans-serif;
+    // font-family: "Sofia Sans", sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
     color: #194341;
+
+    @media (max-width: 1200px) {
+      font-size: 30px;
+    }
   }
 }
 
@@ -1826,7 +1830,7 @@
     h1 {
       color: var(--font-title-font-title-color-big, #1d1d1d);
       text-align: center;
-      font-family: "Sofia Sans";
+      // font-family: "Sofia Sans";
       font-size: 60px;
       font-style: normal;
       font-weight: 700;
@@ -1884,7 +1888,7 @@
       a:first-child {
         color: var(--Button-Ghost-Text-text-default, #333);
         text-align: center;
-        font-family: "Sofia Sans";
+        // font-family: "Sofia Sans";
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
@@ -1900,9 +1904,9 @@
         padding: 16px 28px;
         // border-radius: 50px;
         border-radius: 8px;
-        color: var(--Button-Primary-Text-text-default, #333);
+        color: var(--Button-Primary-Text-text-default, #ffffff);
         text-align: center;
-        font-family: "Sofia Sans";
+        // font-family: "Sofia Sans";
         font-size: 18px;
         font-style: normal;
         font-weight: 700;

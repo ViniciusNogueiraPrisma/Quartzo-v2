@@ -24,7 +24,7 @@ h1,
   padding-top: 16px;
 
   font-size: rem(64);
-  font-family: var(--font-seido);
+  font-family: var(--font-family-title, Poppins);
   line-height: 110%;
   font-weight: bold;
   color: var(--text-color);
